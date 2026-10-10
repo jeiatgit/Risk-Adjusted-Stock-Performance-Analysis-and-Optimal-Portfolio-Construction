@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Data outputs (review provider terms before committing)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/README.md
+
+# Generated outputs
+reports/generated/
+artifacts/
+*.log
+
+# Frontend
+node_modules/
+dist/
